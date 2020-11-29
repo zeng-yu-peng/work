@@ -1,0 +1,690 @@
+/*字型顏色*/
+body {
+  margin: 0;
+  padding: 0;
+  background-color: lightgoldenrodyellow;
+  font-family: 標楷體;
+  color: #000000;
+}
+
+.resume {
+  margin: 0px auto;
+  /*卡片置中*/
+  background-color: lightgoldenrodyellow;
+  color: lightgoldenrodyellow;
+  overflow: hidden;
+  width: 88%;
+  position: relative;
+  top: 20px;
+  left: 6%;
+  margin-bottom: 100px;
+}
+
+/*我的照片*/
+.i {
+  line-height: 150px;
+  display: block;
+  background-color: #eb9700;
+  width: 50px;
+  height: 50px;
+  margin-right: 80px;
+  text-align: center;
+}
+
+/*生活照*/
+.circle-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 999em;
+  overflow: hidden;
+}
+
+
+.live {
+  line-height: 150px;
+  display: block;
+  background-color: #eb9700;
+  width: 50px;
+  height: 50px;
+  margin-right: 780px;
+  text-align: right;
+}
+
+/*個人履歷標題*/
+.title {
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  padding-top: 30px;
+}
+
+
+/*興趣標題*/
+.title1 {
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+
+/*經歷標題*/
+.title2 {
+  text-align: left;
+  color: black;
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+
+/*自我介紹*/
+.title3 {
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  padding-top: 30px;
+}
+
+
+/*介紹*/
+.material {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+  color: #000000;
+}
+
+.bar {
+  background: lightcoral;
+  border-radius: 40px;
+  height: 100%;
+  transition: width 1s linear;
+  float: left;
+  min-width: 30px;
+  color: white;
+  text-align: right;
+}
+
+/*框框*/
+.bb {
+  width: 1500px;
+  height: 750px;
+  margin: 0 auto;
+  background-color: lightgoldenrodyellow;
+}
+
+
+.container {
+  width: 100%;
+  height: 40px;
+  background-color: #eee;
+  border-radius: 30px;
+}
+
+.html,
+.css,
+.javascript,
+.photoshop,
+.java,
+.python,
+.c,
+.VS,
+.VB {
+  text-align: center;
+  font-weight: bolder;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  color: white;
+  border-radius: 30px;
+}
+
+.html {
+  width: 70%;
+  background-color: lightcoral;
+}
+
+.css {
+  width: 80%;
+  background-color: lightcoral;
+}
+
+.javascript {
+  width: 70%;
+  background-color: lightcoral;
+}
+
+.python {
+  width: 75%;
+  background-color: lightcoral;
+}
+
+.java {
+  width: 85%;
+  background-color: lightcoral;
+}
+
+.photoshop {
+  width: 89%;
+  background-color: lightcoral;
+}
+
+.c {
+  width: 70%;
+  background-color: lightcoral;
+}
+
+.VS {
+  width: 70%;
+  background-color: lightcoral;
+}
+
+.VB {
+  width: 70%;
+  background-color: lightcoral;
+}
+
+.text-label {
+  font-size: 14px;
+  text-align: right;
+}
+
+.percent-label {
+  float: right;
+  margin-right: 20px;
+  font-size: 12px;
+  line-height: 1.2em;
+}
+
+.bar {
+  -webkit-animation: bar 2s ease-in-out;
+  -moz-animation: bar 2s ease-in-out;
+  animation: bar 2s ease-in-out;
+}
+
+/* Animate the blue skill bar on page load */
+@-webkit-keyframes bar {
+  0% {
+    width: 0;
+  }
+}
+
+@-moz-keyframes bar {
+  0% {
+    width: 0;
+  }
+}
+
+@keyframes bar {
+  0% {
+    width: 0;
+  }
+}
+
+
+
+.cc {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.point {
+  content: "";
+  top: 100px;
+  left: 43%;
+  display: block;
+  width: 10px;
+  height: 6px;
+  border: 4px solid #908376;
+  border-radius: 10px;
+  background: #fff;
+  position: absolute;
+}
+
+.name {
+  font-size: 20px;
+  font-family: 標楷體;
+  color: blue;
+}
+
+.skills-title {
+  color: #000000;
+  font-size: 35px;
+  font-style: bold;
+}
+
+/*學歷*/
+.education {
+
+  width: 400px;
+  height: 200px;
+  margin-top: 60px;
+}
+
+.education-title1 {
+  font-size: 30px;
+  margin-top: -5px;
+  margin-left: 50px;
+}
+
+.education-title2 {
+  color: #0c2a53;
+  font-size: 20px;
+  font-family: 微軟正黑體;
+  margin-top: 30px;
+}
+
+.ac {}
+
+/*活動經驗註明*/
+.activity {
+  font-size: 20px;
+  font-family: 微軟正黑體;
+  color: #000000;
+}
+
+
+.circle-wrap {
+  width: 150px;
+  height: 150px;
+  background: #D9D9D9;
+  border-radius: 50%;
+  /* -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;*/
+}
+
+.circle-wrap
+/*包*/
+.circle .mask,
+/*隱藏*/
+.circle-wrap .circle .fill
+
+/*顏色填滿圈*/
+  {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circle-wrap .circle .mask {
+  clip: rect(0px, 150px, 150px, 75px);
+}
+
+.circle-wrap .circle .mask .fill {
+  clip: rect(0px, 75px, 150px, 0px);
+  background-color: rebeccapurple;
+}
+
+.circle-wrap .circle .mask.full,
+.circle-wrap .circle .fill {
+  animation: fill ease-in-out 3s;
+  transform: rotate(110deg);
+}
+
+@keyframes fill {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(110deg);
+  }
+}
+
+.circle-wrap .inside-circle {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background: white;
+  line-height: 130px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  position: absolute;
+  z-index: 100;
+  font-weight: 700;
+  font-size: 1em;
+}
+
+/*第二個圈圈*/
+.circle-wrap2 {
+  width: 150px;
+  height: 150px;
+  background: #D9D9D9;
+  border-radius: 50%;
+}
+
+.circle-wrap2 .circle2 .mask2,
+.circle-wrap2 .circle2 .fill2 {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circle-wrap2 .circle2 .mask2 {
+  clip: rect(0px, 150px, 150px, 75px);
+}
+
+.circle-wrap2 .circle2 .mask2 .fill2 {
+  clip: rect(0px, 75px, 150px, 0px);
+  background-color: goldenrod;
+}
+
+.circle-wrap2 .circle2 .mask2.full2,
+.circle-wrap2 .circle2 .fill2 {
+  animation: fill2 ease-in-out 3s;
+  transform: rotate(90deg);
+}
+
+@keyframes fill2 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(90deg);
+  }
+}
+
+.circle-wrap2 .inside-circle2 {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background: white;
+  line-height: 130px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  position: absolute;
+  z-index: 100;
+  font-weight: 700;
+  font-size: 1em;
+}
+
+/*第三個圈圈*/
+.circle-wrap3 {
+  width: 150px;
+  height: 150px;
+  background: #D9D9D9;
+  border-radius: 50%;
+}
+
+.circle-wrap3 .circle3 .mask3,
+.circle-wrap3 .circle3 .fill3 {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circle-wrap3 .circle3 .mask3 {
+  clip: rect(0px, 150px, 150px, 75px);
+}
+
+.circle-wrap3 .circle3 .mask3 .fill3 {
+  clip: rect(0px, 75px, 150px, 0px);
+  background-color: palevioletred;
+}
+
+.circle-wrap3 .circle3 .mask3.full3,
+.circle-wrap3 .circle3 .fill3 {
+  animation: fill3 ease-in-out 3s;
+  transform: rotate(170deg);
+}
+
+@keyframes fill3 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(170deg);
+  }
+}
+
+.circle-wrap3 .inside-circle3 {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background: white;
+  line-height: 130px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  position: absolute;
+  z-index: 100;
+  font-weight: 700;
+  font-size: 1em;
+}
+
+/*第四個圈圈*/
+.circle-wrap4 {
+  width: 150px;
+  height: 150px;
+  background: #D9D9D9;
+  border-radius: 50%;
+}
+
+.circle-wrap4 .circle4 .mask4,
+.circle-wrap4 .circle4 .fill4 {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circle-wrap4 .circle4 .mask4 {
+  clip: rect(0px, 150px, 150px, 75px);
+}
+
+.circle-wrap4 .circle4 .mask4 .fill4 {
+  clip: rect(0px, 75px, 150px, 0px);
+  background-color: #00BD00;
+}
+
+.circle-wrap4 .circle4 .mask4.full4,
+.circle-wrap4 .circle4 .fill4 {
+  animation: fill4 ease-in-out 3s;
+  transform: rotate(120deg);
+}
+
+@keyframes fill4 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(120deg);
+  }
+}
+
+.circle-wrap4 .inside-circle4 {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background: white;
+  line-height: 130px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  position: absolute;
+  z-index: 100;
+  font-weight: 700;
+  font-size: 1em;
+}
+
+/*第五個圈圈*/
+.circle-wrap5 {
+  width: 150px;
+  height: 150px;
+  background: #D9D9D9;
+  border-radius: 50%;
+}
+
+.circle-wrap5 .circle5 .mask5,
+.circle-wrap5 .circle5 .fill5 {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circle-wrap5 .circle5 .mask5 {
+  clip: rect(0px, 150px, 150px, 75px);
+}
+
+.circle-wrap5 .circle5 .mask5 .fill5 {
+  clip: rect(0px, 75px, 150px, 0px);
+  background-color: fuchsia;
+}
+
+.circle-wrap5 .circle5 .mask5.full5,
+.circle-wrap5 .circle5 .fill5 {
+  animation: fill5 ease-in-out 3s;
+  transform: rotate(135deg);
+}
+
+@keyframes fill5 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(135deg);
+  }
+}
+
+.circle-wrap5 .inside-circle5 {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background: white;
+  line-height: 130px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  position: absolute;
+  z-index: 100;
+  font-weight: 700;
+  font-size: 1em;
+}
+
+
+/*可伸縮*/
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.phone {
+  color: #000000;
+}
+
+.percent-label {
+  float: right;
+  margin-right: 20px;
+  font-size: 12px;
+  line-height: 1.2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*可伸縮*/
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active,
+.accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.percent-label {
+  float: right;
+  margin-right: 20px;
+  font-size: 12px;
+  line-height: 1.2em;
+}
+
+
+
+
+.table {
+  padding: 20px 50px;
+  border: 2px white dashed;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}

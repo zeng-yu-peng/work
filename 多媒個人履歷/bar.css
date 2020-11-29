@@ -1,0 +1,53 @@
+.outerbar {
+  width: 100%;
+  height: 20px;
+  background-color: #eee;
+  border-radius: 100px;
+}
+
+.bar {
+  background: #1565C0;
+  border-radius: 100px;
+  height: 100%;
+  transition: width 1s linear;
+  float: left;
+  min-width: 30px;
+}
+
+.text-label {
+  font-size: 14px;
+  text-align: center;
+}
+
+.percent-label {
+  float: right;
+  margin-right: 5px;
+  font-size: 12px;
+  line-height: 1.7em;
+}
+
+
+/* Animate the blue skill bar on page load */
+@-webkit-keyframes bar {
+  0% {
+    width: 0;
+  }
+}
+
+@-moz-keyframes bar {
+  0% {
+    width: 0;
+  }
+}
+
+@keyframes bar {
+  0% {
+    width: 0;
+  }
+}
+
+.bar {
+  -webkit-animation: bar 2s ease-in-out;
+  -moz-animation: bar 2s ease-in-out;
+  animation: bar 2s ease-in-out;
+}
