@@ -1,3 +1,73 @@
+.bar {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 30px;
+}
+
+/*框框*/
+
+.bb {
+  width: 1500px;
+  height: 750px;
+  margin: 0 auto;
+  background-color: lightgoldenrodyellow;
+}
+
+
+.container {
+  width: 100%;
+  background-color: lightgoldenrodyellow;
+  border-radius: 30px;
+}
+
+
+.html {
+  width: 70%;
+  background-color: lightcoral;
+}
+
+.css {
+  width: 80%;
+  background-color: lightcoral;
+}
+
+.javascript {
+  width: 80%;
+  background-color: lightcoral;
+}
+
+.python {
+  width: 75%;
+  background-color: lightcoral;
+}
+
+.java {
+  width: 85%;
+  background-color: lightcoral;
+}
+
+.photoshop {
+  width: 85%;
+  background-color: lightcoral;
+}
+
+.c {
+  width: 70%;
+  background-color: lightcoral;
+}
+
+.VS {
+  width: 90%;
+  background-color: lightcoral;
+}
+
+.VB {
+  width: 90%;
+  background-color: lightcoral;
+}
+
+
+
 /*字型顏色*/
 body {
   margin: 0;
@@ -94,95 +164,6 @@ body {
   color: #000000;
 }
 
-.bar {
-  background: lightcoral;
-  border-radius: 40px;
-  height: 100%;
-  transition: width 1s linear;
-  float: left;
-  min-width: 30px;
-  color: white;
-  text-align: right;
-}
-
-/*框框*/
-.bb {
-  width: 1500px;
-  height: 750px;
-  margin: 0 auto;
-  background-color: lightgoldenrodyellow;
-}
-
-
-.container {
-  width: 100%;
-  height: 40px;
-  background-color: #eee;
-  border-radius: 30px;
-}
-
-.html,
-.css,
-.javascript,
-.photoshop,
-.java,
-.python,
-.c,
-.VS,
-.VB {
-  text-align: center;
-  font-weight: bolder;
-  padding-top: 3px;
-  padding-bottom: 3px;
-  color: white;
-  border-radius: 30px;
-}
-
-.html {
-  width: 70%;
-  background-color: lightcoral;
-}
-
-.css {
-  width: 80%;
-  background-color: lightcoral;
-}
-
-.javascript {
-  width: 70%;
-  background-color: lightcoral;
-}
-
-.python {
-  width: 75%;
-  background-color: lightcoral;
-}
-
-.java {
-  width: 85%;
-  background-color: lightcoral;
-}
-
-.photoshop {
-  width: 89%;
-  background-color: lightcoral;
-}
-
-.c {
-  width: 70%;
-  background-color: lightcoral;
-}
-
-.VS {
-  width: 70%;
-  background-color: lightcoral;
-}
-
-.VB {
-  width: 70%;
-  background-color: lightcoral;
-}
-
 .text-label {
   font-size: 14px;
   text-align: right;
@@ -272,7 +253,12 @@ body {
   margin-top: 30px;
 }
 
-.ac {}
+/*證照*/
+.license {
+  font-size: 25px;
+  font-family: 微軟正黑體;
+  color: #000000;
+}
 
 /*活動經驗註明*/
 .activity {
@@ -569,116 +555,9 @@ body {
   font-size: 1em;
 }
 
-
-/*可伸縮*/
-.accordion {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-  transition: 0.4s;
-}
-
-
-
-.panel {
-  padding: 0 18px;
-  background-color: white;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-}
-
 .phone {
   color: #000000;
 }
-
-.percent-label {
-  float: right;
-  margin-right: 20px;
-  font-size: 12px;
-  line-height: 1.2em;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-/*可伸縮*/
-.accordion {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-  transition: 0.4s;
-}
-
-.active,
-.accordion:hover {
-  background-color: #ccc;
-}
-
-.accordion:after {
-  content: '\002B';
-  color: #777;
-  font-weight: bold;
-  float: right;
-  margin-left: 5px;
-}
-
-.active:after {
-  content: "\2212";
-}
-
-.panel {
-  padding: 0 18px;
-  background-color: white;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-.percent-label {
-  float: right;
-  margin-right: 20px;
-  font-size: 12px;
-  line-height: 1.2em;
-}
-
-
-
 
 .table {
   padding: 20px 50px;
@@ -687,4 +566,109 @@ html {
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
+}
+
+/*學習經歷對話框按鈕*/
+.button {
+  font-family: Lucida Console;
+  font-size: large;
+  height: 40px;
+  width: 150px;
+  border-radius: 10px;
+  border: rgb(231, 154, 231);
+  box-shadow: 0px 10px 14px -7px plum;
+  background: linear-gradient(to bottom, lightpink 5%, purple 100%);
+  background-color: rgb(233, 170, 248);
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.button:hover {
+  background: linear-gradient(to bottom, lightpink 5%, plum 100%);
+  background-color: lightpink;
+}
+
+/*工作經歷展開*/
+.accordion {
+  background-color: lightpink;
+  color: #444;
+  cursor: pointer;
+  padding: 30px;
+  width: 90%;
+  border: none;
+  text-align: center;
+  outline: black dashed 5px;
+  font-size: 22px;
+  font-weight: bold;
+  transition: 0.4s;
+  margin: 0 60px;
+  font-family: 標楷體;
+}
+
+.active,
+.accordion:hover {
+  background-color: lightpink;
+}
+
+.panel {
+  padding: 0 40px;
+  display: none;
+  background-color: lightgoldenrodyellow;
+  overflow: hidden;
+  margin: 0 60px;
+  width: 85%;
+}
+
+.kkk {
+  float: left;
+}
+
+.job {
+  float: right;
+  margin: 10px 10px;
+}
+
+pre {
+  font-size: 16pt;
+  text-align: left;
+  margin: 30px 0 0 -20%;
+  font-family: 標楷體;
+}
+
+
+.content {
+  padding-bottom: 20px;
+}
+
+hr {
+  border: 2px rgb(235, 142, 204)dashed;
+  margin: 0px;
+  width: 100%;
+}
+
+/*證照*/
+div.photo {
+  height: 800px;
+  -webkit-column-count-: 3;
+  width: 100%;
+  margin-left: 30px;
+}
+
+img.pic {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 5px;
+  width: 300px;
+  height: 300px;
+  margin: 20px 5px 10px 5px;
+  transition: all 0.5s ease-out;
+}
+
+img.pic:hover {
+  box-shadow: 0px 0px 5px 3px;
+  transform: scale(1.1, 1.1);
+}
+
+.demo {
+  margin: -300px 0px 00px 600px;
 }
