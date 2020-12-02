@@ -4,6 +4,13 @@
   border-radius: 30px;
 }
 
+/*名言*/
+.take {
+  color: purple;
+  font-family: 標楷體;
+  font-size: 30px;
+}
+
 /*框框*/
 
 .bb {
@@ -158,9 +165,9 @@ body {
 
 /*介紹*/
 .material {
-  width: 30px;
-  height: 30px;
-  margin-right: 20px;
+  width: 40px;
+  height: 40px;
+  margin-right: 30px;
   color: #000000;
 }
 
