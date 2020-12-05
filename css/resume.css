@@ -12,18 +12,55 @@
 }
 
 /*框框*/
-
+/*
 .bb {
-  width: 1500px;
-  height: 750px;
+  width: 1300px;
+  height: 1000px;
   margin: 0 auto;
-  background-color: lightgoldenrodyellow;
+  margin-left: 60px;
+  background-color: sienna;
+}*/
+
+/*學歷*/
+.education {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  margin-top: 60px;
+  margin-left: 100px;
+
+}
+
+.education-title1 {
+  position: absolute;
+  font-size: 30px;
+  margin-top: -700px;
+  margin-left: 1000px;
+
+}
+
+.bgc {
+  position: absolute;
+  width: 600px;
+  height: 610px;
+  margin-left: 600px;
+  background-color: rgb(221, 166, 141);
+  margin-top: -700px;
+  border-radius: 30px;
+}
+
+.education-title2 {
+
+  color: #0c2a53;
+  font-size: 30px;
+  font-family: 微軟正黑體;
+  margin-left: -120px;
+  margin-top: 100px;
 }
 
 
 .container {
   width: 100%;
-  background-color: lightgoldenrodyellow;
   border-radius: 30px;
 }
 
@@ -73,15 +110,18 @@
   background-color: lightcoral;
 }
 
+.html {
+  height: 100%;
+}
 
 
 /*字型顏色*/
 body {
-  margin: 0;
-  padding: 0;
-  background-color: lightgoldenrodyellow;
-  font-family: 標楷體;
-  color: #000000;
+  background-color: mediumturquoise;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 .resume {
@@ -99,14 +139,37 @@ body {
 
 /*我的照片*/
 .i {
+  position: absolute;
   line-height: 150px;
   display: block;
-  background-color: #eb9700;
-  width: 50px;
-  height: 50px;
-  margin-right: 80px;
-  text-align: center;
+  background-color: white;
+  background-size: 20%;
+  width: 300px;
+  height: 300px;
+  margin-left: 80px;
+  margin-top: 30px;
 }
+
+header {
+  position: absolute;
+  left: 120px;
+  top: 100px;
+  width: 1300px;
+  height: 400px;
+  color: white;
+  background-color: white;
+  border-radius: 100px;
+}
+
+/*介紹*/
+.material1 {
+  width: "80";
+  height: "80";
+  margin-left: 300px;
+  color: #000000;
+  margin-top: 100px;
+}
+
 
 /*生活照*/
 .circle-image {
@@ -123,7 +186,7 @@ body {
   background-color: #eb9700;
   width: 50px;
   height: 50px;
-  margin-right: 780px;
+  margin-right: 880px;
   text-align: right;
 }
 
@@ -160,15 +223,8 @@ body {
   color: black;
   font-size: 30px;
   padding-top: 30px;
-}
-
-
-/*介紹*/
-.material {
-  width: 40px;
-  height: 40px;
-  margin-right: 30px;
-  color: #000000;
+  margin-left: 400px;
+  font-family: 標楷體;
 }
 
 .text-label {
@@ -208,8 +264,6 @@ body {
   }
 }
 
-
-
 .cc {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -239,26 +293,7 @@ body {
   font-style: bold;
 }
 
-/*學歷*/
-.education {
 
-  width: 400px;
-  height: 200px;
-  margin-top: 60px;
-}
-
-.education-title1 {
-  font-size: 30px;
-  margin-top: -5px;
-  margin-left: 50px;
-}
-
-.education-title2 {
-  color: #0c2a53;
-  font-size: 20px;
-  font-family: 微軟正黑體;
-  margin-top: 30px;
-}
 
 /*證照*/
 .license {
@@ -274,6 +309,15 @@ body {
   color: #000000;
 }
 
+
+.circle-wrap {
+  width: 150px;
+  height: 150px;
+  background: #D9D9D9;
+  border-radius: 50%;
+  /* -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;*/
+}
 
 .circle-wrap {
   width: 150px;
@@ -327,7 +371,7 @@ body {
   width: 130px;
   height: 130px;
   border-radius: 50%;
-  background: white;
+  background: midnightblue;
   line-height: 130px;
   text-align: center;
   margin-top: 10px;
@@ -383,7 +427,7 @@ body {
   width: 130px;
   height: 130px;
   border-radius: 50%;
-  background: white;
+  background: midnightblue;
   line-height: 130px;
   text-align: center;
   margin-top: 10px;
@@ -439,7 +483,7 @@ body {
   width: 130px;
   height: 130px;
   border-radius: 50%;
-  background: white;
+  background: midnightblue;
   line-height: 130px;
   text-align: center;
   margin-top: 10px;
@@ -495,7 +539,7 @@ body {
   width: 130px;
   height: 130px;
   border-radius: 50%;
-  background: white;
+  background: midnightblue;
   line-height: 130px;
   text-align: center;
   margin-top: 10px;
@@ -551,7 +595,7 @@ body {
   width: 130px;
   height: 130px;
   border-radius: 50%;
-  background: white;
+  background: midnightblue;
   line-height: 130px;
   text-align: center;
   margin-top: 10px;
@@ -562,37 +606,27 @@ body {
   font-size: 1em;
 }
 
-.phone {
-  color: #000000;
+div.photo {
+  height: 800px;
+  /*-webkit-column-count-: 3;*/
+  width: 100%;
+  margin-left: 30px;
+
 }
 
-.table {
-  padding: 20px 50px;
-  border: 2px white dashed;
-  border-radius: 50px;
-  margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
+img.pic {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 5px;
+  width: 300px;
+  height: 300px;
+  margin: 20px 5px 10px 5px;
+  transition: all 0.5s ease-out;
 }
 
-/*學習經歷對話框按鈕*/
-.button {
-  font-family: Lucida Console;
-  font-size: large;
-  height: 40px;
-  width: 150px;
-  border-radius: 10px;
-  border: rgb(231, 154, 231);
-  box-shadow: 0px 10px 14px -7px plum;
-  background: linear-gradient(to bottom, lightpink 5%, purple 100%);
-  background-color: rgb(233, 170, 248);
-  cursor: pointer;
-  font-weight: bold;
-}
-
-.button:hover {
-  background: linear-gradient(to bottom, lightpink 5%, plum 100%);
-  background-color: lightpink;
+img.pic:hover {
+  box-shadow: 0px 0px 5px 3px;
+  transform: scale(1.1, 1.1);
 }
 
 /*工作經歷展開*/
@@ -618,64 +652,26 @@ body {
 }
 
 .panel {
-  padding: 0 40px;
+  padding: 0.40px;
   display: none;
   background-color: lightgoldenrodyellow;
   overflow: hidden;
-  margin: 0 60px;
-  width: 85%;
+  margin-left: 58px;
+
+  width: 90%;
 }
 
 .kkk {
-  float: left;
+  position: initial;
+  font-size: 30px;
+  font-family: 標楷體;
+  color: #000000;
 }
 
-.job {
-  float: right;
-  margin: 10px 10px;
-}
 
 pre {
   font-size: 16pt;
   text-align: left;
-  margin: 30px 0 0 -20%;
+  margin: 50px 0 0 -20%;
   font-family: 標楷體;
-}
-
-
-.content {
-  padding-bottom: 20px;
-}
-
-hr {
-  border: 2px rgb(235, 142, 204)dashed;
-  margin: 0px;
-  width: 100%;
-}
-
-/*證照*/
-div.photo {
-  height: 800px;
-  -webkit-column-count-: 3;
-  width: 100%;
-  margin-left: 30px;
-}
-
-img.pic {
-  border: 1px solid rgb(255, 255, 255);
-  border-radius: 5px;
-  padding: 5px;
-  width: 300px;
-  height: 300px;
-  margin: 20px 5px 10px 5px;
-  transition: all 0.5s ease-out;
-}
-
-img.pic:hover {
-  box-shadow: 0px 0px 5px 3px;
-  transform: scale(1.1, 1.1);
-}
-
-.demo {
-  margin: -300px 0px 00px 600px;
 }
