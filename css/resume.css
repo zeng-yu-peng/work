@@ -4,22 +4,28 @@
   border-radius: 30px;
 }
 
+.tt {
+  -webkit-text-stroke: 1px rgb(247, 7, 7);
+  font-size: 50px;
+  text-shadow: 5px 5px 0 plum,
+    -5px -5px 0 plum,
+    5px -5px 0 plum,
+    -5px 5px 0 plum,
+    5px 5px 0 plum;
+
+}
+
+.t {
+  -webkit-text-stroke: 1px black;
+  font-size: 50px;
+}
+
 /*名言*/
 .take {
   color: purple;
   font-family: 標楷體;
   font-size: 30px;
 }
-
-/*框框*/
-/*
-.bb {
-  width: 1300px;
-  height: 1000px;
-  margin: 0 auto;
-  margin-left: 60px;
-  background-color: sienna;
-}*/
 
 /*學歷*/
 .education {
@@ -71,7 +77,7 @@
 }
 
 .css {
-  width: 80%;
+  width: 60%;
   background-color: lightcoral;
 }
 
@@ -96,7 +102,7 @@
 }
 
 .c {
-  width: 70%;
+  width: 60%;
   background-color: lightcoral;
 }
 
@@ -121,20 +127,6 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-
-}
-
-.resume {
-  margin: 0px auto;
-  /*卡片置中*/
-  background-color: lightgoldenrodyellow;
-  color: lightgoldenrodyellow;
-  overflow: hidden;
-  width: 88%;
-  position: relative;
-  top: 20px;
-  left: 6%;
-  margin-bottom: 100px;
 }
 
 /*我的照片*/
@@ -203,8 +195,9 @@ header {
 .title1 {
   text-align: center;
   color: black;
-  font-size: 30px;
-  padding-top: 20px;
+  font-size: 40px;
+  padding-top: 30px;
+  font-family: 標楷體;
 }
 
 
@@ -226,6 +219,8 @@ header {
   margin-left: 400px;
   font-family: 標楷體;
 }
+
+
 
 .text-label {
   font-size: 14px;
@@ -633,16 +628,16 @@ img.pic:hover {
 .accordion {
   background-color: lightpink;
   color: #444;
-  cursor: pointer;
+
   padding: 30px;
   width: 90%;
   border: none;
   text-align: center;
-  outline: black dashed 5px;
+  outline: black dashed 3px;
   font-size: 22px;
   font-weight: bold;
   transition: 0.4s;
-  margin: 0 60px;
+  margin: 0 80px;
   font-family: 標楷體;
 }
 
@@ -652,12 +647,11 @@ img.pic:hover {
 }
 
 .panel {
-  padding: 0.40px;
+  padding: 0.52px;
   display: none;
   background-color: lightgoldenrodyellow;
   overflow: hidden;
-  margin-left: 58px;
-
+  margin-left: 79px;
   width: 90%;
 }
 
@@ -674,4 +668,19 @@ pre {
   text-align: left;
   margin: 50px 0 0 -20%;
   font-family: 標楷體;
+}
+
+img.po {
+  border: 1px solid lightcyan;
+  border-radius: 5px;
+  padding: 5px;
+  width: 300px;
+  height: 300px;
+  margin: 20px 5px 10px 5px;
+  transition: all 0.5s ease-out;
+}
+
+img.po:hover {
+  box-shadow: 0px 0px 5px 3px;
+  transform: scale(1.1, 1.1);
 }
